@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mg_arr"> 
+       <item>@drawable/mg_aap</item> 
+       <item>@drawable/mg_ago</item> 
+       <item>@drawable/mg_atv</item> 
+       <item>@drawable/mg_gabklukh</item> 
+       <item>@drawable/mg_grnag</item> 
+       <item>@drawable/mg_avd</item> 
+       <item>@drawable/mg_tap</item> 
+    </array>
+    <array name="torch_4"> 
+       <item>@drawable/torch_4_01</item> 
+       <item>@drawable/torch_4_02</item> 
+       <item>@drawable/torch_4_03</item> 
+    </array>
+</resources>

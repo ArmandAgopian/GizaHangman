@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="KbdButton" >
+	    <item name="android:layout_weight">1</item> 
+    	<item name="android:layout_width">wrap_content</item> 
+	    <item name="android:layout_height">match_parent</item> 
+    	<item name="android:layout_gravity">center</item>
+    	<item name="android:gravity">center</item>
+    	<item name="android:clickable">true</item>  
+    	<item name="android:textSize">14sp</item>  
+    	<item name="android:textStyle">bold</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:background">@drawable/kbd_button</item>
+        <item name="android:onClick">kbdClick</item>
+    </style>
+    
+    <style name="KbdFullSpacer" >
+	    <item name="android:layout_weight">1</item> 
+    	<item name="android:layout_width">wrap_content</item> 
+	    <item name="android:layout_height">match_parent</item> 
+    	<item name="android:layout_gravity">center</item>
+    	<item name="android:gravity">center</item>
+    	<item name="android:clickable">false</item>  
+    	<item name="android:textSize">14sp</item>  
+    	<item name="android:textStyle">bold</item>
+    	<item name="android:padding">0dp</item>
+		<item name="android:background">@drawable/kbd_transparent</item>
+    </style>
+    
+    <style name="KbdHalfSpacer" >
+	    <item name="android:layout_weight">0.4</item> 
+    	<item name="android:layout_width">wrap_content</item> 
+	    <item name="android:layout_height">match_parent</item> 
+    	<item name="android:layout_gravity">center</item>
+    	<item name="android:gravity">center</item>
+    	<item name="android:clickable">false</item>  
+    	<item name="android:textSize">14sp</item>  
+    	<item name="android:textStyle">bold</item>
+    	<item name="android:padding">0dp</item>
+		<item name="android:background">@drawable/kbd_trans_half</item>
+    </style>
+    
+    	
+    <style name="ll_horiz">
+        <item name="android:layout_width">wrap_content</item> 
+    	<item name="android:layout_height">wrap_content</item> 
+    	<item name="android:orientation">horizontal</item>        
+		<item name="android:gravity">center</item>
+    </style>
+
+    <style name="ll_vert">
+        <item name="android:layout_width">fill_parent</item> 
+    	<item name="android:layout_height">fill_parent</item> 
+    	<item name="android:orientation">vertical</item>        
+    </style>
+    
+    <style name="ll_vert_ans">
+        <item name="android:layout_weight">1</item> 
+        <item name="android:layout_width">wrap_content</item> 
+    	<item name="android:layout_height">wrap_content</item> 
+    	<item name="android:orientation">vertical</item>        
+    	<item name="android:layout_marginLeft">5dp</item>        
+    	</style>
+    
+    <style name="txAnswer">
+        <item name="android:layout_width">wrap_content</item> 
+    	<item name="android:layout_height">wrap_content</item> 
+    	<item name="android:layout_gravity">center</item>        
+    	<item name="android:gravity">center_horizontal</item>        
+    	<item name="android:text">l</item>        
+    </style>
+    
+    <style name="ivAnswer">
+        <item name="android:layout_width">wrap_content</item> 
+    	<item name="android:layout_height">wrap_content</item> 
+    	<item name="android:src">@drawable/kdzig</item>              
+    </style>
+    
+    
+
+</resources>
+

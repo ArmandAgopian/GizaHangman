@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<resources> 
+    <declare-styleable name="ImageSequencer"> 
+        <attr name="android:src"  /> 
+        <attr name="duration" format="integer" /> 
+        <attr name="interframe" format="integer" /> 
+        <attr name="drawableArray" format="integer" /> 
+        </declare-styleable> 
+</resources> 

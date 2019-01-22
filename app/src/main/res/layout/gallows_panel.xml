@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"    
+    xmlns:myapp="http://schemas.android.com/apk/res/ago.gizahangman" 
+    android:id="@+id/gallows_panel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:visibility="visible">
+
+    <ImageView
+        android:id="@+id/imageBarzGakhaghan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/barz_gakhaghan" />
+    
+    <ImageView
+        	android:id="@+id/img_baran"
+        	android:layout_width="35dp"
+        	android:layout_height="50dp"
+        	android:src="@drawable/gakh_baran_moh"
+        	android:layout_alignLeft="@id/imageBarzGakhaghan"
+    		android:layout_alignTop="@id/imageBarzGakhaghan"
+    		android:layout_marginLeft="50dp"
+    		android:layout_marginTop="36dp"
+    		android:visibility="visible" />
+    
+     <ago.gizahangman.ImageSequencer
+	        android:id="@+id/sequencer"
+	        android:layout_width="30dp"
+	        android:layout_height="40dp"
+        	android:layout_alignLeft="@id/imageBarzGakhaghan"
+    		android:layout_alignTop="@id/imageBarzGakhaghan"
+    		android:layout_marginLeft="50dp"
+    		android:layout_marginTop="36dp"
+	        android:src="@drawable/torch_4_01"
+	        android:visibility="invisible"
+	        myapp:duration="1500"
+	        myapp:interframe="70"
+	        myapp:drawableArray="@array/torch_4"
+		    />
+     
+    <RelativeLayout 
+	    android:id="@+id/gallows_martug"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+    	android:layout_alignLeft="@id/imageBarzGakhaghan"
+    	android:layout_alignTop="@id/imageBarzGakhaghan"
+    	android:layout_marginLeft="50dp"
+    	android:layout_marginTop="45dp"
+    	android:visibility="visible">        
+    
+    	<ImageView
+        	android:id="@+id/img_mg_klukh"
+        	android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:src="@drawable/mg_klukh" />
+    	
+    	<ImageView
+        	android:id="@+id/img_mg_grnag"
+        	android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:src="@drawable/mg_grnag" />
+    	    	
+    	<ImageView
+        	android:id="@+id/img_mg_atv"
+        	android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:src="@drawable/mg_atv" />
+    	
+    	<ImageView
+        	android:id="@+id/img_mg_aap"
+        	android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:src="@drawable/mg_aap" />
+    	    	
+    	<ImageView
+        	android:id="@+id/img_mg_ttv"
+        	android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:src="@drawable/mg_ttv" />
+    	    	
+        <ImageView
+        	android:id="@+id/img_mg_tap"
+        	android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:src="@drawable/mg_tap" />
+        	
+        <ImageView
+        	android:id="@+id/img_mg_avd"
+        	android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:src="@drawable/mg_avd" />	
+        
+        <ImageView
+        	android:id="@+id/img_mg_ago"
+        	android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:src="@drawable/mg_ago" />	
+        
+        <ImageView
+        	android:id="@+id/img_mg_tvd"
+        	android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:src="@drawable/mg_tvd" />	
+        
+        <ImageView
+        	android:id="@+id/img_mg_tgo"
+        	android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:src="@drawable/mg_tgo" />	
+        
+        <ImageView
+            android:id="@+id/img_mg_gabklukh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/mg_gabklukh" />
+        
+    </RelativeLayout>
+</RelativeLayout>

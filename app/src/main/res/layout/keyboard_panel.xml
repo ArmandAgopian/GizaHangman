@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/keyboard_panel"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:orientation="vertical"
+    android:visibility="visible">
+
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" 
+        android:layout_marginLeft="0dp"
+        android:orientation="horizontal" >
+
+      <Button    style="@style/KbdHalfSpacer"  android:tag="#"  android:text="" />
+   	  <Button    style="@style/KbdButton"   android:tag="1"       android:text="1" />
+      <Button    style="@style/KbdButton"   android:tag="2"       android:text="2" />
+      <Button    style="@style/KbdButton"   android:tag="3"       android:text="3" />
+      <Button    style="@style/KbdButton"   android:tag="4"       android:text="4" />
+      <Button    style="@style/KbdButton"   android:tag="5"       android:text="5" />
+      <Button    style="@style/KbdButton"   android:tag="6"       android:text="6" />
+      <Button    style="@style/KbdButton"   android:tag="7"       android:text="7" />
+      <Button    style="@style/KbdButton"   android:tag="8"       android:text="8" />
+      <Button    style="@style/KbdButton"   android:tag="9"       android:text="9" />
+      <Button    style="@style/KbdButton"   android:tag="0"       android:text="0"   />
+      <Button  	 style="@style/KbdHalfSpacer" android:tag="#"  android:text="" />
+      
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" 
+        android:layout_marginLeft="0dp"
+        android:orientation="horizontal" >
+   
+      <Button    style="@style/KbdButton"   android:tag="q"        android:text="Q" />
+      <Button    style="@style/KbdButton"   android:tag="w"        android:text="W" />
+      <Button    style="@style/KbdButton"   android:tag="e"        android:text="E" />
+      <Button    style="@style/KbdButton"   android:tag="r"        android:text="R" />
+      <Button    style="@style/KbdButton"   android:tag="t"        android:text="T" />
+      <Button    style="@style/KbdButton"   android:tag="y"        android:text="Y" />
+      <Button    style="@style/KbdButton"   android:tag="u"        android:text="U" />
+      <Button    style="@style/KbdButton"   android:tag="i"        android:text="I" />
+      <Button    style="@style/KbdButton"   android:tag="o"        android:text="O" />
+      <Button    style="@style/KbdButton"   android:tag="p"        android:text="P" />
+      <Button    style="@style/KbdFullSpacer"  android:tag="#"  android:text="" />                             
+     </LinearLayout>
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" 
+        android:layout_marginLeft="0dp"
+        android:orientation="horizontal" >
+      
+      <Button    style="@style/KbdHalfSpacer"  android:tag="#"  android:text="" />
+      <Button    style="@style/KbdButton"   android:tag="a"        android:text="A" />
+      <Button    style="@style/KbdButton"   android:tag="s"        android:text="S" />
+      <Button    style="@style/KbdButton"   android:tag="d"        android:text="D" />
+      <Button    style="@style/KbdButton"   android:tag="f"        android:text="F" />
+      <Button    style="@style/KbdButton"   android:tag="g"        android:text="G" /> 
+      <Button    style="@style/KbdButton"   android:tag="h"        android:text="H" />
+      <Button    style="@style/KbdButton"   android:tag="j"        android:text="J" />
+      <Button    style="@style/KbdButton"   android:tag="k"        android:text="K" />
+      <Button    style="@style/KbdButton"   android:tag="l"        android:text="L" />
+      <Button    style="@style/KbdButton"   android:tag="-"       android:text="-" />
+      <Button    style="@style/KbdHalfSpacer"  android:tag="#"  android:text="" />
+      
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:orientation="horizontal"
+        android:paddingBottom="0dp" >
+		<Button    style="@style/KbdFullSpacer"  android:tag="#"  android:text="" />
+      	<Button    style="@style/KbdButton"   android:tag="z"        android:text="Z" />
+      	<Button    style="@style/KbdButton"   android:tag="x"        android:text="X" />
+      	<Button    style="@style/KbdButton"   android:tag="c"        android:text="C" />
+      	<Button    style="@style/KbdButton"   android:tag="v"        android:text="V" />
+      	<Button    style="@style/KbdButton"   android:tag="b"        android:text="B" />
+      	<Button    style="@style/KbdButton"   android:tag="n"        android:text="N" />
+      	<Button    style="@style/KbdButton"   android:tag="m"        android:text="M" />
+      	<Button    style="@style/KbdButton"   android:tag=","        android:text="," />
+      	<Button    style="@style/KbdButton"   android:tag="."        android:text="." />
+      	<Button    style="@style/KbdButton"   android:tag="/"        android:text="/" />
+               
+	</LinearLayout>
+</LinearLayout>

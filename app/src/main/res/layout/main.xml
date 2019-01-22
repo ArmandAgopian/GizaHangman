@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myapp="http://schemas.android.com/apk/res/ago.gizahangman" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center" 
+    android:background="@drawable/giza_sunset">
+
+  
+    <ImageView
+        android:id="@+id/imageTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:src="@drawable/giza_title" />
+
+
+	    <include
+	        android:id="@+id/gallows_include"
+	        android:layout_width="130dp"
+	        android:layout_height="fill_parent"
+	        android:layout_marginBottom="20dp"
+	        android:layout_marginLeft="15dp"
+	        android:layout_marginTop="20dp"
+	        layout="@layout/gallows_panel" />
+	    
+
+    	<include
+	        android:id="@+id/qa_include"
+    	    android:layout_width="350dp"
+   		    android:layout_height="100dp"
+   		    android:layout_alignParentRight="true"
+   		    android:layout_alignParentTop="true"
+   		    android:layout_gravity="top"
+   		    android:layout_marginRight="10dp"
+    		android:layout_marginTop="25dp"
+    		layout="@layout/q_and_a_panel" />
+	        	    	
+	    <include
+	        android:id="@+id/keyboard_include"
+	        android:layout_width="350dp"
+	        android:layout_height="120dp"
+	        android:layout_alignParentBottom="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_gravity="bottom"
+	        android:layout_marginBottom="5dp"
+	        android:layout_marginRight="10dp"
+	        layout="@layout/keyboard_panel" />
+
+
+		   
+	    
+</RelativeLayout>

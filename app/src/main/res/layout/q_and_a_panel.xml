@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/qa_panel"
+	style="@style/ll_vert" 
+    android:gravity="center" 
+    orientation="vertical"
+    android:visibility="visible">
+
+    <LinearLayout
+        style="@style/ll_horiz"
+        android:layout_weight="0.7">
+  
+        <TextView
+            android:id="@+id/txQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Who made the Great Pyramid?"
+            android:textSize="12sp" />
+        
+    </LinearLayout>
+    
+    <LinearLayout style="@style/ll_horiz" 
+        android:layout_weight="0.3" >
+
+        <TextView 
+            android:id="@+id/txPrefix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="right"
+            android:text="" />
+
+    	<LinearLayout 
+            android:id="@+id/llAnswerSoFar"
+    	    android:orientation="horizontal"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center" >
+	        <!-- 
+	        <TextView 
+    	        android:id="@+id/txAnswerSoFar"
+        	    android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:gravity="center"
+            	android:text="" />
+         	-->
+        
+
+        	<LinearLayout    android:id="@+id/ansCol0"    style="@style/ll_vert_ans" >
+           		<TextView     android:id="@+id/txCol0"     style="@style/txAnswer" />
+           		<ImageView    android:id="@+id/ivCol0"     style="@style/ivAnswer" />
+	    	</LinearLayout>
+            
+        	<LinearLayout    android:id="@+id/ansCol1"    style="@style/ll_vert_ans" >
+           		<TextView     android:id="@+id/txCol1"     style="@style/txAnswer" />  
+           		<ImageView    android:id="@+id/ivCol1"     style="@style/ivAnswer" />
+	    	</LinearLayout>
+
+                    
+        	<LinearLayout    android:id="@+id/ansCol2"    style="@style/ll_vert_ans" >
+           		<TextView     android:id="@+id/txCol2"     style="@style/txAnswer" />  
+           		<ImageView    android:id="@+id/ivCol2"     style="@style/ivAnswer" />
+	    	</LinearLayout>
+                    
+        	<LinearLayout    android:id="@+id/ansCol3"    style="@style/ll_vert_ans" >
+           		<TextView     android:id="@+id/txCol3"     style="@style/txAnswer" />  
+           		<ImageView    android:id="@+id/ivCol3"     style="@style/ivAnswer" />
+	    	</LinearLayout>
+                    
+        	<LinearLayout    android:id="@+id/ansCol4"    style="@style/ll_vert_ans" >
+           		<TextView     android:id="@+id/txCol4"     style="@style/txAnswer" />  
+           		<ImageView    android:id="@+id/ivCol4"     style="@style/ivAnswer" />
+	    	</LinearLayout>
+                    
+        	<LinearLayout    android:id="@+id/ansCol5"    style="@style/ll_vert_ans" >
+           		<TextView     android:id="@+id/txCol5"     style="@style/txAnswer" />  
+           		<ImageView    android:id="@+id/ivCol5"     style="@style/ivAnswer" />
+	    	</LinearLayout>
+                    
+        	<LinearLayout    android:id="@+id/ansCol6"    style="@style/ll_vert_ans" >
+           		<TextView     android:id="@+id/txCol6"     style="@style/txAnswer" />  
+           		<ImageView    android:id="@+id/ivCol6"     style="@style/ivAnswer" />
+	    	</LinearLayout>
+                    
+        	<LinearLayout    android:id="@+id/ansCol7"    style="@style/ll_vert_ans" >
+           		<TextView     android:id="@+id/txCol7"     style="@style/txAnswer" />  
+           		<ImageView    android:id="@+id/ivCol7"     style="@style/ivAnswer" />
+	    	</LinearLayout>
+                    
+        	<LinearLayout    android:id="@+id/ansCol8"    style="@style/ll_vert_ans" >
+           		<TextView     android:id="@+id/txCol8"     style="@style/txAnswer" />  
+           		<ImageView    android:id="@+id/ivCol8"     style="@style/ivAnswer" />
+	    	</LinearLayout>
+                    
+	        <LinearLayout    android:id="@+id/ansCol9"    style="@style/ll_vert_ans" >
+	           <TextView     android:id="@+id/txCol9"     style="@style/txAnswer" />  
+	           <ImageView    android:id="@+id/ivCol9"     style="@style/ivAnswer" />
+		    </LinearLayout>
+	                    
+	        <LinearLayout    android:id="@+id/ansCol10"    style="@style/ll_vert_ans" >
+	           <TextView     android:id="@+id/txCol10"     style="@style/txAnswer" />  
+	           <ImageView    android:id="@+id/ivCol10"     style="@style/ivAnswer" />
+		    </LinearLayout>
+	                    
+	        <LinearLayout    android:id="@+id/ansCol11"    style="@style/ll_vert_ans" >
+	           <TextView     android:id="@+id/txCol11"     style="@style/txAnswer" />  
+	           <ImageView    android:id="@+id/ivCol11"     style="@style/ivAnswer" />
+		    </LinearLayout>
+
+	        <LinearLayout    android:id="@+id/ansCol12"    style="@style/ll_vert_ans" >
+	           <TextView     android:id="@+id/txCol12"     style="@style/txAnswer" />  
+	           <ImageView    android:id="@+id/ivCol12"     style="@style/ivAnswer" />
+		    </LinearLayout>
+	        
+	        <LinearLayout    android:id="@+id/ansCol13"    style="@style/ll_vert_ans" >
+	           <TextView     android:id="@+id/txCol13"     style="@style/txAnswer" />  
+	           <ImageView    android:id="@+id/ivCol13"     style="@style/ivAnswer" />
+		    </LinearLayout>
+	        
+	        <LinearLayout    android:id="@+id/ansCol14"    style="@style/ll_vert_ans" >
+	           <TextView     android:id="@+id/txCol14"     style="@style/txAnswer" />  
+	           <ImageView    android:id="@+id/ivCol14"     style="@style/ivAnswer" />
+		    </LinearLayout>
+	        
+	        <LinearLayout    android:id="@+id/ansCol15"    style="@style/ll_vert_ans" >
+	           <TextView     android:id="@+id/txCol15"     style="@style/txAnswer" />  
+	           <ImageView    android:id="@+id/ivCol15"     style="@style/ivAnswer" />
+		    </LinearLayout>
+	        
+	        <LinearLayout    android:id="@+id/ansCol16"    style="@style/ll_vert_ans" >
+	           <TextView     android:id="@+id/txCol16"     style="@style/txAnswer" />  
+	           <ImageView    android:id="@+id/ivCol16"     style="@style/ivAnswer" />
+		    </LinearLayout>
+	        
+	        <LinearLayout    android:id="@+id/ansCol17"    style="@style/ll_vert_ans" >
+	           <TextView     android:id="@+id/txCol17"     style="@style/txAnswer" />  
+	           <ImageView    android:id="@+id/ivCol17"     style="@style/ivAnswer" />
+		    </LinearLayout>
+	
+	        <LinearLayout    android:id="@+id/ansCol18"    style="@style/ll_vert_ans" >
+	           <TextView     android:id="@+id/txCol18"     style="@style/txAnswer" />  
+	           <ImageView    android:id="@+id/ivCol18"     style="@style/ivAnswer" />
+		    </LinearLayout>
+	                
+	        <LinearLayout    android:id="@+id/ansCol19"    style="@style/ll_vert_ans" >
+	           <TextView     android:id="@+id/txCol19"     style="@style/txAnswer" />  
+	           <ImageView    android:id="@+id/ivCol19"     style="@style/ivAnswer" />
+		    </LinearLayout>
+        
+        
+     	</LinearLayout>
+     
+    	
+        <TextView 
+            android:id="@+id/txSuffix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:gravity="left"
+            android:text="" />
+    </LinearLayout>
+        
+    
+</LinearLayout>
